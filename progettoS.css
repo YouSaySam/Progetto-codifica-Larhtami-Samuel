@@ -1,0 +1,206 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+#pag_122,
+#pag_123,
+#pag_124 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Per evidenziare la parola */
+.evidenziata {
+    color: red;
+}
+
+.immag {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+/* Nascondi solo gli elementi span di default */
+.content span {
+    display: none;
+}
+
+.toggle-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* Stile quando il mouse passa sopra al bottone */
+.toggle-btn:hover {
+    background-color: #45a049;
+}
+
+/* Stili specifici per ciascun tipo di elemento */
+span.persName {
+    color: #007bff;
+    /* Blu */
+    font-style: italic;
+}
+
+span.abbr {
+    font-weight: bold;
+    font-variant: small-caps;
+    display: none;
+}
+
+span.supplied {
+    background-color: #ffff00;
+    /* Giallo */
+    display: none;
+}
+
+span.sic {
+    background-color: #ff7700;
+    display: none;
+}
+
+span.corr {
+    color: #28a745;
+    /* Verde */
+    display: none;
+}
+
+span.del {
+    text-decoration: line-through;
+    display: none;
+}
+
+span.placeName {
+    font-style: italic;
+    color: #6c757d;
+    /* Grigio scuro */
+}
+
+#text {
+    background-color: #ffffff;
+    /* Bianco */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content span {
+    margin: 6px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-title {
+    font-size: 24px;
+}
+
+#sub-title {
+    font-size: 20px;
+}
+
+#bibliografia,
+#descrizione {
+    margin-bottom: 20px;
+}
+
+#title_biblio,
+#desc {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#paragrafo {
+    font-size: 16px;
+}
+
+#pagine_diario {
+    margin-bottom: 20px;
+}
+
+#pagine_diario h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.testo {
+    margin-bottom: 20px;
+}
+
+.riga {
+    font-weight: bold;
+}
+
+.btnFunzioni {
+    margin-top: 10px;
+}
+
+
+
+.note_persona {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+}
+
+h1#pag124,
+h1#pag122,
+h1#pag123 {
+    text-align: center;
+}
+
+
+.testo {
+    margin: auto;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 600px) {
+    #menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

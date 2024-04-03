@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<!-- obbligatorio, intestazione, metadati descrittivi e dichiarativi sulla risorsa digitale -->
+		<fileDesc>			<!-- obbligatorio, descrizione della fonte da cui è stato preso il testo -->
+			<!--Informazioni riguardanti il titolo del lavoro-->
+			<titleStmt>				<!-- codifica del titolo e responsabilità del contenuto -->
+				<title type="full">Diari di Emanuele Artom - Edizione Digitale</title>
+				<title type="sub">Novembre 1943 - Febbraio 1944</title>
+			</titleStmt>
+
+			<!--Informazioni editoriali-->
+			<editionStmt>
+				<edition>Edizione Digitale realizzata per l'esame di Codifica di Testi dell'Università di Pisa a.a. 2022/2023.
+				</edition>
+				<respStmt>
+					<resp>Progetto coordinato dal: </resp>
+					<name ref="#AMDG">Professor Angelo Mario Del Grosso.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica e trascrizione dei testi a cura di </resp>
+					<name ref="#SL">Samuel Larhtami, </name>
+					<note>Mat: 617954. </note>
+				</respStmt>
+			</editionStmt>
+			<!--Informazioni riguardo la pubblicazione-->
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<availability status="free">
+					<p>Accesso libero</p>
+				</availability>
+				<pubPlace>Pisa</pubPlace>
+				<date when="2024-03">Marzo 2024</date>
+			</publicationStmt>
+
+
+			<!-- <sourceDesc descrive la fonte da cui un testo elettronico è stato derivato-->
+			<sourceDesc>
+				<!-- Descrizione di un singolo manoscritto  -->
+				<msDesc>
+					<!-- Informazioni necessarie per l'identificazione del manoscritto -->
+					<msIdentifier>
+						<country key="IT" type="nation">Italia</country>
+						<settlement>Milano</settlement>
+						<institution ref="#CDEC">Centro di documentazione ebraica contemporanea</institution>
+						<repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">
+							<orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
+							<orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
+						</repository>
+						<collection>Fondo Emanuele Artom</collection>
+						<idno type="inventory">IT-CDEC-ST0003-000006 - b.1, fasc.9 </idno>
+					</msIdentifier>
+
+					<!--msContents-->
+
+					<!--  Descrivere il contenuto intellettuale del manoscritto-->
+					<msContents>
+						<!-- Descrive una singola opera all'interno del contenuto intellettuale del manoscritto -->
+						<msItem>
+							<title>Diari Artom</title>
+							<author ref="#EA">Emanuele Artom</author>
+							<respStmt>
+								<resp>Lettera di accompagnamento scritta da:</resp>
+								<persName ref="#AS">Amalia Segre</persName>
+							</respStmt>
+							<docDate>
+								<date from="1943-12-31" to="1944-01-01">31 dicembre 1943 - 01 gennaio 1944</date>
+							</docDate>
+							<textLang mainLang="it">Italiano</textLang>
+						</msItem>
+					</msContents>
+
+					<!-- physDesc -->
+					<!--Descrizione fisica del manoscritto-->
+
+					<physDesc>
+						<objectDesc form="manuscript">
+							<supportDesc material="paper" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">
+								<support>
+								  Fogli di <material>carta</material>
+								</support>
+
+								<extent>
+									<measure unit="pages" quantity="174">
+										Il manoscritto è preceduto da due pagine contenenti la lettera di <persName ref="#AS">Amalia Segre Artom</persName> e una seconda parte contenente il diario 
+                                        di<persName ref="#EM">Emanuele Artom</persName>, che si compone di <num>172</num> pagine. 
+									</measure>
+								</extent>
+								<condition>
+									<p>Le pagine del diario sono ben conservate.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="2">
+							<handNote scope="minor" medium="black pen" script="cursive">
+								<p>La prima pagina del manoscritto consiste nell'epigrafe di <persName ref="#AS">Amalia Segre Artom</persName> scritta a penna e in corsivo.</p>
+							</handNote>
+							<handNote scope="major" medium="black pen pencil greenish-ink" script="cursive">
+								<p>Il diario di <persName ref="#EA">Emanuele Artom</persName> parte dalla seconda pagina del manoscritto.</p>
+							</handNote>
+						</handDesc>
+
+						<typeDesc>
+							<p>Il diario che contiene le seguenti pagine costituisce la seconda parte dei diari pubblicati da <persName ref="#GZ">Guri Schwarz</persName>.
+							In questo diario viene raccontata l'esperienza partigiana di <persName ref="EA">Emanuele Artom</persName> dal 
+								<date when="11-1943">Novembre del 1943</date> fino al <date when="23-02-1944">23 febbraio 1944</date>. 
+							</p>
+						</typeDesc>
+						<accMat>La raccolta di scritti è accompagnata da una lettera della madre<persName ref="#AS">Amalia Segre Artom</persName>
+						</accMat>
+					</physDesc>
+
+
+
+					<!--Storia-->
+					<history>
+						<origin from="1943-11" to="1944-02-23">
+							<p>Le pagine di diario contenenti gli scritti autografi di <persName ref="#EA">Emanuele Artom</persName> sono state 
+							   raccolte dalla madre, <persName ref="#AS">Amalia Segre Artom</persName>, nell'immediato dopoguerra.
+							</p>
+						</origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+			<!--Informazioni riguardanti la fonte originale da cui deriva il documento elettronico-->
+		</fileDesc>
+
+		<!-- Relazione tra il documento elettronico e la fonte da cui è derivato -->
+
+		<encodingDesc>
+			<projectDesc>
+				<p>Edizione digitale realizzata per il progetto d'esame di Codifica di Testi, materia del corso di laurea in Informatica umanistica dell'Università di Pisa  a.a. 2022/2023.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction method="markup" status="high">
+					<p>
+						   Nella codifica gli errori del testo sono stati marcati attraverso l'utilizzo del tag <gi>sic</gi> e l'occorrenza viene corretta attraverso l'utilizzo del tag <gi>corr</gi>.
+				           Entrambi i tag sono inseriti all'interno del tag <gi>choiche</gi>.
+					</p>
+				</correction>
+
+				<normalization method="markup">
+					<p>
+						     Nella codifica gli errori del testo sono state marcate attraverso l'utilizzo del tag <gi>orig</gi> e l'occorrenza viene normalizzata attraverso l'utilizzo del tag <gi>reg</gi>.
+				             Entrambi i tag sono inseriti all'interno del tag <gi>choiche</gi>.
+					</p>
+				</normalization>
+				<!-- ritorni a capo-->
+				<hyphenation eol="all">
+					<p> 
+					   La sillabazione nei ritorni a capo è stata mantenuta e segnalata attraverso l'attributo <att>break</att> dell'elemento <gi>lb</gi>.
+					</p>
+				</hyphenation>
+
+				<punctuation marks="all" placement="internal">
+					<p> 
+					   La punteggiatura originale del testo è stata mantenuta. 
+					</p>
+				</punctuation>
+
+				<quotation marks="all">
+					<p> 
+					   Le virgolette presenti nel testo sono state mantenute e quelle mancanti sono state aggiunte attraverso l'elemento <gi>supplied</gi>.
+					</p>
+				</quotation>
+
+			</editorialDecl>
+
+		</encodingDesc>
+
+		<!-- Informazioni non bibliografiche-->
+		<profileDesc>
+
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+
+			<creation>
+				<listChange>
+					<desc>
+				        Per quanto riguarda la pagina 122 e la prima riga di pagina 123, non è presente l'indicazione del giorno in cui sono state scritte le pagine.
+						é stato possibile risalire al giorno (31 dicembre 1943) grazie alla disponibilità dell'intero documento. 
+					</desc>
+					<change when="1943-12-31" who="#EA">
+				          La <ref target="#p1"> pagina 122</ref> fino alla <ref target="#r1_p2"> riga 1 di pagina 123 </ref> è stata scritta il <date when="1943-12-31">31 Dicembre 1943</date>.
+					</change>
+					<change when="1943-12-5" who="#EA">
+				          	La <ref target="#p2"> pagina 123</ref> dalla <ref target="#r3_p2"> riga 3 </ref>  fino alla <ref target="#p3"> pagina 124</ref> 
+							è stata scritta il <date when="1944-01-01">01 Gennaio 1944</date>.
+					</change>
+
+				</listChange>
+			</creation>
+		</profileDesc>
+	</teiHeader>
+
+	<!-- PAGINA 122-->
+	<facsimile>		<!--rappresentazione digitale della fonte, contiene testo scritto sotto forma di immagine-->
+
+		<surface n="122" xml:id="pag_122">			<!-- si definsce una supericie di scrittura  spazio espresso delle coordinate-->
+			<graphic url='Pag_122.jpg' width='745px' height='1024px' n='122' />
+			<zone xml:id="pag122_r1" ulx="91" uly="85" lrx="664" lry="127" />
+			<zone xml:id="pag122_r2" ulx="92" uly="128" lrx="665" lry="170"/>
+			<zone xml:id="pag122_r3" ulx="91" uly="171" lrx="681" lry="205"/>
+			<zone xml:id="pag122_r4" ulx="92" uly="202" lrx="689" lry="243"/>
+			<zone xml:id="pag122_r5" ulx="92" uly="243" lrx="715" lry="286"/>
+			<zone xml:id="pag122_r6" ulx="83" uly="282" lrx="697" lry="320"/>
+			<zone xml:id="pag122_r7" ulx="92" uly="320" lrx="721" lry="359"/>
+			<zone xml:id="pag122_r8" ulx="93" uly="358" lrx="679" lry="398"/>
+			<zone xml:id="pag122_r9" ulx="95" uly="398" lrx="672" lry="440"/>
+			<zone xml:id="pag122_r10" ulx="92" uly="435" lrx="672" lry="477"/>
+			<zone xml:id="pag122_r11" ulx="94" uly="477" lrx="691" lry="513"/>
+			<zone xml:id="pag122_r12" ulx="75" uly="513" lrx="694" lry="564"/>
+			<zone xml:id="pag122_r13" ulx="104" uly="556" lrx="665" lry="593"/>
+			<zone xml:id="pag122_r14" ulx="92" uly="591" lrx="664" lry="637"/>
+			<zone xml:id="pag122_r15" ulx="91" uly="629" lrx="667" lry="668"/>
+			<zone xml:id="pag122_r16" ulx="92" uly="668" lrx="692" lry="708"/>
+			<zone xml:id="pag122_r17" ulx="92" uly="701" lrx="651" lry="743"/>
+			<zone xml:id="pag122_r18" ulx="85" uly="740" lrx="623" lry="788"/>
+			<zone xml:id="pag122_r19" ulx="90" uly="786" lrx="584" lry="823"/>
+			<zone xml:id="pag122_r20" ulx="84" uly="819" lrx="677" lry="860"/>
+			<zone xml:id="pag122_r21" ulx="91" uly="857" lrx="626" lry="901"/>
+			<zone xml:id="pag122_r22" ulx="92" uly="896" lrx="664" lry="949"/>
+		</surface>
+
+		<!-- PAGINA 123-->
+		<surface n="123" xml:id="pag_123">
+			<graphic url='Pag_123.jpg' width='749px' height='1024px' n='123' />
+			<zone xml:id="pag123_r1" ulx="78" uly="97" lrx="641" lry="132" />
+			<zone xml:id="pag123_r2" ulx="305" uly="131" lrx="463" lry="163" />
+			<zone xml:id="pag123_r3" ulx="445" uly="170" lrx="580" lry="201" />
+			<zone xml:id="pag123_r4" ulx="74" uly="197" lrx="678" lry="250" />
+			<zone xml:id="pag123_r5" ulx="61" uly="244" lrx="677" lry="286" />
+			<zone xml:id="pag123_r6" ulx="75" uly="285" lrx="667" lry="327" />
+			<zone xml:id="pag123_r7" ulx="76" uly="323" lrx="656" lry="365" />
+			<zone xml:id="pag123_r8" ulx="76" uly="358" lrx="626" lry="402" />
+			<zone xml:id="pag123_r9" ulx="78" uly="402" lrx="621" lry="443" />
+			<zone xml:id="pag123_r10" ulx="76" uly="444" lrx="658" lry="479" />
+			<zone xml:id="pag123_r11" ulx="77" uly="478" lrx="645" lry="517" />
+			<zone xml:id="pag123_r12" ulx="75" uly="517" lrx="643" lry="552" />
+			<zone xml:id="pag123_r13" ulx="76" uly="550" lrx="659" lry="597" />
+			<zone xml:id="pag123_r14" ulx="75" uly="588" lrx="654" lry="633" />
+			<zone xml:id="pag123_r15" ulx="77" uly="626" lrx="622" lry="671" />
+			<zone xml:id="pag123_r16" ulx="77" uly="665" lrx="614" lry="712" />
+			<zone xml:id="pag123_r17" ulx="78" uly="706" lrx="598" lry="749" />
+			<zone xml:id="pag123_r18" ulx="78" uly="745" lrx="657" lry="787" />
+			<zone xml:id="pag123_r19" ulx="79" uly="781" lrx="618" lry="826" />
+			<zone xml:id="pag123_r20" ulx="78" uly="823" lrx="606" lry="864" />
+			<zone xml:id="pag123_r21" ulx="78" uly="861" lrx="680" lry="906" />
+			<zone xml:id="pag123_r22" ulx="78" uly="894" lrx="668" lry="948" />
+		</surface>
+
+		<!-- PAGINA 124-->
+		<surface n="124" xml:id="pag_124">
+			<graphic url='Pag_124.jpg' width='745px' height='1024px' n='124'  />
+			<zone xml:id="pag124_r1" ulx="90" uly="89" lrx="701" lry="132" />
+			<zone xml:id="pag124_r2" ulx="92" uly="130" lrx="668" lry="174" />
+			<zone xml:id="pag124_r3" ulx="95" uly="166" lrx="668" lry="214" />
+			<zone xml:id="pag124_r4" ulx="94" uly="203" lrx="665" lry="248" />
+			<zone xml:id="pag124_r5" ulx="94" uly="237" lrx="672" lry="291" />
+			<zone xml:id="pag124_r6" ulx="94" uly="285" lrx="684" lry="330" />
+			<zone xml:id="pag124_r7" ulx="92" uly="321" lrx="672" lry="363" />
+			<zone xml:id="pag124_r8" ulx="92" uly="357" lrx="656" lry="404" />
+			<zone xml:id="pag124_r9" ulx="89" uly="399" lrx="631" lry="444" />
+			<zone xml:id="pag124_r10" ulx="94" uly="441" lrx="684" lry="488" />
+			<zone xml:id="pag124_r11" ulx="92" uly="474" lrx="664" lry="516" />
+			<zone xml:id="pag124_r12" ulx="91" uly="508" lrx="692" lry="555" />
+			<zone xml:id="pag124_r13" ulx="43" uly="95" lrx="80" lry="990" rotate="90"/>
+			<zone xml:id="pag124_r14" ulx="24" uly="61" lrx="56" lry="897" rotate="90" />
+			<zone xml:id="pag124_r15" ulx="16" uly="222" lrx="36" lry="450" rotate="90" />
+			<zone xml:id="pag124_r16" ulx="93" uly="550" lrx="659" lry="596" />
+			<zone xml:id="pag124_r17" ulx="92" uly="591" lrx="689" lry="643" />
+			<zone xml:id="pag124_r18" ulx="95" uly="631" lrx="626" lry="669" />
+			<zone xml:id="pag124_r19" ulx="93" uly="668" lrx="643" lry="710" />
+			<zone xml:id="pag124_r20" ulx="93" uly="708" lrx="670" lry="746" />
+			<zone xml:id="pag124_r21" ulx="94" uly="742" lrx="665" lry="782" />
+			<zone xml:id="pag124_r22" ulx="93" uly="784" lrx="653" lry="827" />
+			<zone xml:id="pag124_r23" ulx="96" uly="820" lrx="671" lry="868" />
+			<zone xml:id="pag124_r24" ulx="92" uly="863" lrx="641" lry="902" />
+			<zone xml:id="pag124_r25" ulx="107" uly="896" lrx="683" lry="948" />
+
+		</surface>
+	</facsimile>
+	<!-- Inizio della trascrizione del testo -->
+	<text xml:id="text_122_123_124" xml:lang="it" hand="#EA" type="personal_diary" subtype="manuscript">
+		<body>
+
+			<!-- blocco anonimo-->
+			<ab type="page" xml:lang="it" n="122">
+
+				<!-- codifica della pagina numero 122-->
+				<pb facs="#pag_122" xml:id="pag_1" />
+
+
+				<!-- riga 1 -->
+				<!-- FACS   mi collega una  parte dell'immagine al contenuto nel testo -->
+
+
+				<lb facs="#pag122_r1" xml:id="r1_p1" n="1"/>
+ i metodi fascisti <pc type="period">.</pc>
+				<del rend="overstrike">
+					<gap reason="illeggibile" quantity="3" unit="character" />
+				</del> Se si potesse
+				<lb facs="#pag122_r2" xml:id="r2_p1" n="2"/>
+ fare dello spirito <pc type="comma">,</pc> direi a <persName ref="#BA"> Barbato </persName> di chia <pc type="hyphenation">=</pc>
+				<lb facs="#pag122_r3" xml:id="r3_p1" n="3" break="no"/>
+ marci <name> Bande Ezzelino da Romano </name> e non 
+				<lb facs="#pag122_r4" xml:id="r4_p1" n="4"/>
+				<persName ref="#CA"> Carlo Pisacane </persName>
+				<pc type="period">.</pc> così <add place="above"> ora </add> comprendo la gravità
+				<lb facs="#pag122_r5" xml:id="r5_p1" n="5"/>
+ di aver ucciso qualche prigioniero <pc type="period">.</pc> Gia allora
+				<lb facs="#pag122_r6" xml:id="r6_p1" n="6"/>
+ avevo protestato <pc type="comma">,</pc> ma ora capisco come sarebbe 
+				<lb facs="#pag122_r7" xml:id="r7_p1" n="7"/>
+ stato meglio <del rend="overstrike">
+				<gap reason="illeggibile" quantity="1" unit="character" />
+			</del> ricordargli che i <choice>
+			<abbr>Ted</abbr>
+			<expan>tedeschi</expan>
+		</choice> uccidono
+		<lb facs="#pag122_r8" xml:id="r8_p1" n="8"/>
+ i partigiani catturati <pc type="comma">,</pc>
+		<gap reason="illeggibile" quantity="1" unit="character" />
+ puntargli la ri <pc type="hyphenation">=</pc>
+		<lb facs="#pag122_r9" xml:id="r9_p1" n="9" break="no"/>
+ voltella <pc type="comma">,</pc>
+		<gap reason="illeggibile" quantity="1" unit="character" />
+ graziarlo e trattenerlo un'ora
+		<lb facs="#pag122_r10" xml:id="r10_p1" n="10"/>
+ a spiegargli la certa sconfitta di <persName ref="#HI"> Hitler </persName> e 
+		<lb facs="#pag122_r11" xml:id="r11_p1" n="11"/>
+ le ragioni della nostra resistenza <pc type="period">.</pc> Poi con <pc type="hyphenation">=</pc>
+		<lb facs="#pag122_r12" xml:id="r12_p1" n="12"/>
+ gedarlo <pc type="period">.</pc> Se tornava tra i fascisti <pc type="comma">,</pc> poco male <pc type="colon">:</pc>
+		<lb facs="#pag122_r13" xml:id="r13_p1" n="13"/>
+ uno più o meno fra tanti non conta <pc type="comma">,</pc> ma
+		<lb facs="#pag122_r14" xml:id="r14_p1" n="14"/>
+ c'era qualche probabilità che si ravvedesse <pc type="comma">,</pc>
+		<lb facs="#pag122_r15" xml:id="r15_p1" n="15"/>
+ che ci restasse amico e ci rendesse qualche 
+		<lb facs="#pag122_r16" xml:id="r16_p1" n="16"/>
+ servizio <pc type="comma">,</pc> che almeno combattesse più fioca <pc type="hyphenation">=</pc>
+		<lb facs="#pag122_r17" xml:id="r17_p1" n="17" break="no"/>
+ mente contro di noi <pc type="period">.</pc> Almeno <add place="above"> davanti </add> alla popola <pc type="hyphenation">=</pc>
+		<lb facs="#pag122_r18" xml:id="r18_p1" n="18" break="no"/>
+ zione e alla storia si sarebbero rese note 
+		<lb facs="#pag122_r19" xml:id="r19_p1" n="19"/>
+ le differenze fra i due metodi <pc type="period">.</pc>
+		<lb facs="#pag122_r20" xml:id="r20_p1" n="20"/>
+ e per ora basta <pc type="period">.</pc> Domani comincia l'anno
+		<lb facs="#pag122_r21" xml:id="r21_p1" n="21"/>
+ decisivo <pc type="period">.</pc>
+		<del rend="overstrike">
+			<gap reason="illeggibile" quantity="2" unit="character" />
+		</del> Nel secolo scorso si
+		<lb facs="#pag122_r22" xml:id="r22_p1" n="22"/>
+ sarebbe detto <pc type="colon">:</pc> O compagni sul letto di
+
+	</ab>
+
+
+	<!-- codifica della pagina numero 123-->
+
+	<ab type="page" xml:lang="it" n="123">
+
+		<pb facs="#pag_123" xml:id="pag_2" />
+
+		<lb facs="#pag123_r1" xml:id="r1_p2" n="1"/>
+ morte <pc type="comma">,</pc> o fratelli sul libero suol <pc type="period">.</pc>
+		<lb facs="#pag123_r2" xml:id="r2_p2" n="2"/>
+		<metamark function="divisione_temporale"></metamark>
+		<lb facs="#pag123_r3" xml:id="r3_p2" n="3"/>
+		<date when="1/1/1944"> 1/1/1944 </date>
+		<lb facs="#pag123_r4" xml:id="r4_p2" n="4"/>
+ Continua l'odissea delle nostre peripezie <pc type="period">.</pc>
+		<lb facs="#pag123_r5" xml:id="r5_p2" n="5"/>
+ Ieri si andò ad <placeName> Agliano </placeName>
+		<pc type="comma">,</pc>
+		<choice>
+			<abbr type="nome_persona">G</abbr>
+			<expan>Giorgio</expan>
+		</choice>
+		<pc type="comma">,</pc>
+		<persName> Toni </persName> e io <pc type="period">.</pc>
+		<lb facs="#pag123_r6" xml:id="r6_p2" n="6"/>
+ Per la strada incontriamo <persName> Luigi </persName> e <persName> Gina </persName>
+		<lb facs="#pag123_r7" xml:id="r7_p2" n="7"/>
+ che riferiscono sulla battaglia <pc type="period">.</pc> Una
+		<lb facs="#pag123_r8" xml:id="r8_p2" n="8"/>
+ nuova <foreign xml:lang="fra">debacle</foreign>. La strada non saltò <pc type="comma">,</pc>
+		<lb facs="#pag123_r9" xml:id="r9_p2" n="9"/>
+ perchè i <choice>
+		<abbr>Ted</abbr>
+		<expan>tedeschi</expan>
+	</choice>
+	<pc type="comma">,</pc> informati da una
+	<lb facs="#pag123_r10" xml:id="r10_p2" n="10"/>
+ spia <pc type="comma">,</pc> scesero dai camion prima <del type="overstrike"> che </del>
+	<lb facs="#pag123_r11" xml:id="r11_p2" n="11"/>
+ di giungere al luogo dove c'era la 
+	<lb facs="#pag123_r12" xml:id="r12_p2" n="12"/>
+ mina <pc type="semicolon">;</pc> gli areoplani segnavano 
+	<lb facs="#pag123_r13" xml:id="r13_p2" n="13"/>
+ le nostre basi e i cannoni e le mi <pc type="hyphenation">=</pc>
+	<lb facs="#pag123_r14" xml:id="r14_p2" n="14"/>
+ tragliatrici <del type="overstrike"> colpivano </del> sparavano <pc type="period">.</pc>
+	<lb facs="#pag123_r15" xml:id="r15_p2" n="15"/>
+ Battaglia in grande stile <pc type="comma">,</pc> che 
+	<lb facs="#pag123_r16" xml:id="r16_p2" n="16"/>
+ si concluse con <num type="cardinal" value="30"> 30 </num> morti e <del type="overstrike"> gli </del>
+	<lb facs="#pag123_r17" xml:id="r17_p2" n="17"/>
+	<del type="overstrike"> numero </del> altri fuggirono <pc type="period">.</pc>
+	<persName> Zama </persName>
+	<lb facs="#pag123_r18" xml:id="r18_p2" n="18"/>
+ ebbe un'altra terribile avventura <pc type="period">.</pc>
+	<lb facs="#pag123_r19" xml:id="r19_p2" n="19"/>
+ Appena cominciata la battaglia <pc type="comma">,</pc> un
+	<lb facs="#pag123_r20" xml:id="r20_p2" n="20"/>
+ proiettile gli perforò il braccio <pc type="comma">,</pc>
+	<lb facs="#pag123_r21" xml:id="r21_p2" n="21"/>
+ e poi entrò nel petto trapassandolo <pc type="period">.</pc>
+	<lb facs="#pag123_r22" xml:id="r22_p2" n="22"/>
+ Ferita miracolosamente leggera <pc type="comma">,</pc> che 
+
+</ab>
+
+
+<!-- codifica della pagina numero 124-->
+
+<ab type="page" xml:lang="it" n="124">
+
+	<pb facs="#pag_124" xml:id="pag_3" />
+
+	<lb facs="#pag124_r1" xml:id="r1_p3" n="1"/>
+ in infermeria <pc type="period">.</pc> Un minuto dopo tutti i nostri
+	<lb facs="#pag124_r2" xml:id="r2_p3" n="2"/>
+ compagni <pc type="comma">,</pc>
+	<persName> Luigi </persName> e <persName> Gina </persName> per primi <pc type="comma">,</pc> erano
+	<lb facs="#pag124_r3" xml:id="r3_p3" n="3"/>
+ scomparsi <pc type="period">.</pc>
+	<persName> Luigi </persName> e <persName> Gina </persName> dicevano <pc type="colon">:</pc>
+	<q type="spoken">
+		<supplied reason="omitted-in-original" resp="#SL">
+			<pc type="quote">"</pc>
+		</supplied>
+	</q>
+	<choice>
+		<sic> an </sic>
+		<corr> An </corr>
+	</choice>
+	<pc type="hyphenation">=</pc>
+	<lb facs="#pag124_r4" xml:id="r4_p3" n="4"/>
+ diamo ad avvertire <del type="overstrike"> gli </del> ad <placeName> Agliasco </placeName>
+	<choice>
+		<sic> . </sic>
+		<corr></corr>
+	</choice>
+	<lb facs="#pag124_r5" xml:id="r5_p3" n="5"/>
+	<choice>
+		<sic> Gli </sic>
+		<corr> gli </corr>
+	</choice> altri <pc type="period">.</pc> Con questa confusione non 
+	<lb facs="#pag124_r6" xml:id="r6_p3" n="6"/>
+ si capisce più nulla <pc type="period">.</pc> Allora noi due 
+	<lb facs="#pag124_r7" xml:id="r7_p3" n="7"/>
+ sistemammo <persName> Zama </persName> in una casa abban <pc type="hyphenation">=</pc>
+	<lb facs="#pag124_r8" xml:id="r8_p3" n="8"/>
+ donata <pc type="comma">,</pc> demmo <num type="cardinal" value="100"> 100 </num> lire a due ra <pc type="hyphenation">=</pc>
+	<lb facs="#pag124_r9" xml:id="r9_p3" n="9"/>
+ gazzine del vicinato perchè ogni 
+	<lb facs="#pag124_r10" xml:id="r10_p3" n="10"/>
+ tanto gli facessero una visita e gli chie <pc type="hyphenation">=</pc>
+	<lb facs="#pag124_r11" xml:id="r11_p3" n="11"/>
+ dessero se avesse bisogno di qualcosa e 
+	<lb facs="#pag124_r12" xml:id="r12_p3" n="12"/>
+ lo salutammo <pc type="period">.</pc> Ci chiese una <choice>
+	<orig> rivoltella </orig>
+	<reg> pistola </reg>
+</choice>
+<pc type="period">.</pc>
+<lb facs="#pag124_r13" xml:id="r13_p3" n="13"/>
+ Quando lo lasciammo erano gia spuntate le stelle <pc type="comma">,</pc> che 
+<lb facs="#pag124_r14" xml:id="r14_p3" n="14"/>
+ impassibili luccicavano sull'abbandono di <persName> Zama </persName> e sul
+<lb facs="#pag124_r15" xml:id="r15_p3" n="15"/>
+ nostro pericolo <pc type="period">.</pc>
+<lb facs="#pag124_r16" xml:id="r16_p3" n="16"/>
+<q type="spoken">
+	<supplied reason="omitted-in-original" resp="#SL">
+		<pc type="quote">"</pc>
+	</supplied>
+</q> se arrivano i <choice>
+<abbr>Ted</abbr>
+<expan>tedeschi</expan>
+</choice>
+<pc type="comma">,</pc> mi faccio saltare 
+<lb facs="#pag124_r17" xml:id="r17_p3" n="17"/>
+ le cervella prima che mi prendano <pc type="comma">,</pc> disse <pc type="comma">,</pc>
+<lb facs="#pag124_r18" xml:id="r18_p3" n="18"/>
+ ma non l'avevamo <pc type="period">.</pc> Faceva pena 
+<lb facs="#pag124_r19" xml:id="r19_p3" n="19"/>
+ sentire un uomo così forte parlare
+<lb facs="#pag124_r20" xml:id="r20_p3" n="20"/>
+ con voce <del rend="cancellato"> flebile </del>
+<del rend="cancellato">e</del>
+<del rend="cancellato">tremante</del> tremula e 
+<lb facs="#pag124_r21" xml:id="r21_p3" n="21"/>
+ rotta dai brividi <pc type="period">.</pc> Poi scendemmo
+<lb facs="#pag124_r22" xml:id="r22_p3" n="22"/>
+ nella notte sulla via di <placeName> Paesana </placeName>
+<pc type="comma">,</pc>
+<lb facs="#pag124_r23" xml:id="r23_p3" n="23"/>
+ perdendoci nelle ripide boscaglie <pc type="comma">,</pc>
+<lb facs="#pag124_r24" xml:id="r24_p3" n="24"/>
+ gia buie <pc type="comma">,</pc> scivolando per i sen <pc type="hyphenation">=</pc>
+<lb facs="#pag124_r25" xml:id="r25_p3" n="25"/>
+ tierini coperti da lastre di chiaccio <pc type="period">.</pc>
+
+</ab>
+
+</body>
+
+
+
+<!-- appendici-->
+<back>
+<div>
+<listPerson>
+<!--LISTE DELLE PERSONE-->
+
+<!--Angelo Mario Del Grosso-->
+<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
+	<persName>
+		<forename>Angelo</forename>
+		<forename>Mario</forename>
+		<surname>Del Grosso</surname>
+	</persName>
+	<sex>M</sex>
+</person>
+
+<!--Samuel Larhtami-->
+<person xml:id="SL">
+	<persName>
+		<forename>Samuel</forename>
+		<surname>Larhtami</surname>
+	</persName>
+	<sex>M</sex>
+</person>
+
+
+<!-- Amalia Segre Artom -->
+<person xml:id="AS">
+	<persName role="teacher">
+		<forename>Amalia</forename>
+		<surname>Segre</surname>
+		<ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-017448/segre-amalia.html?persone=%22Segre%2C+Amalia%22"/>
+	</persName>
+	<sex>F</sex>
+	<birth>
+		<date when="1890">1890</date>
+		<placeName ref="#TO">
+			<settlement type="municipality">Torino</settlement>
+			<settlement type="provincia" key="TO">Torino</settlement>
+			<country key="IT" type="nation">Italia</country>
+		</placeName>
+	</birth>
+	<death>
+		<date when="1972-10-09">09 Ottobre 1972</date>
+		<placeName ref="#TO">
+			<settlement type="municipality">Torino</settlement>
+			<settlement type="provincia" key="TO">Torino</settlement>
+			<country key="IT" type="nation">Italia</country>
+		</placeName>
+	</death>
+	<note>Fu la madre di Emanuele Artom, la quale si occupò di conservare parte della documentazione.</note>
+</person>
+
+<!--Emanuele Artom-->
+<person xml:id="EA" sameAs="http://viaf.org/viaf/69734166">
+	<persName role="partisan">
+		<forename>Emanuele</forename>
+		<surname>Artom</surname>
+		<addName type="alias">Eugenio Ansaldi</addName>
+		<ref target="https://it.wikipedia.org/wiki/Emanuele_Artom"/>
+	</persName>
+	<birth>
+		<date when="1915-06-23">23 giugno 1915</date>
+		<placeName ref="#AO">
+			<settlement type="municipality">Aosta</settlement>
+			<settlement type="provincia" key="AO">Aosta</settlement>
+			<country key="IT" type="nation">Italia</country>
+		</placeName>
+	</birth>
+	<death>
+		<date when="1944-04-7">7 aprile 1944</date>
+		<placeName ref="#TO">
+			<settlement type="municipality">Torino</settlement>
+			<settlement type="provincia" key="TO">Torino</settlement>
+			<country key="IT" type="nation">Italia</country>
+		</placeName>
+	</death>
+	<note>
+						    È stato un partigiano e storico italiano di origine ebraica, combattente della Resistenza.
+	</note>
+</person>
+
+<!-- Barbato -->
+<person xml:id="BA">
+	<persName>
+		<forename>Barbato</forename>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date>Sconosciuta</date>
+	</birth>
+	<death>
+		<date>Sconosciuta</date>
+	</death>
+	<note>Citato da Emanuele Artom alla riga 2 di pagina 122 </note>
+</person>
+
+
+<!-- Ezzelino da Romano -->
+<person xml:id="EZ">
+	<persName>
+		<forename>Ezzelino</forename>
+		<surname> da Romano </surname>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date when="1194">1194</date>
+	</birth>
+	<death>
+		<date when="1259">1259</date>
+	</death>
+	<note>Citato da Emanuele Artom alla riga 3 di pagina 122. Fu un condottiero e politico italiano, caratterizzato da da una grande crudeltà e spietatezza. </note>
+</person>
+
+
+<!-- Carlo Pisacane -->
+<person xml:id="CA">
+	<persName>
+		<forename>Carlo</forename>
+		<surname>Pisacane</surname>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date when="1818">1818</date>
+	</birth>
+	<death>
+		<date when="1857">1857</date>
+	</death>
+	<note>Citato da Emanuele Artom alla riga 4 di pagina 122. Fu un patriota italiano, rimasto celebre per aver guidato il fallimentare tentativo di rivolta nel Regno delle Due Sicilie. </note>
+</person>
+
+
+<!-- Hitler -->
+<person xml:id="HI">
+	<persName>
+		<forename>Adolf</forename>
+		<surname> Hitler </surname>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date when="1889">1889</date>
+	</birth>
+	<death>
+		<date when="1945">1945</date>
+	</death>
+	<note>Citato da Emanuele Artom alla riga 3 di pagina 122. Fu un condottiero e politico italiano, caratterizzato da da una grande crudeltà e spietatezza. </note>
+</person>
+
+
+<!-- G -->
+<person xml:id="G">
+	<persName>
+		<forename>G.</forename>
+	</persName>
+	<birth>
+		<date> sconosciuta</date>
+	</birth>
+	<death>
+		<date>sconosciuta</date>
+	</death>
+	<note> Citato da Emanuele Artom alla riga 5 di pagina 123  </note>
+</person>
+
+
+<!-- Toni -->
+<person xml:id="TO">
+	<persName>
+		<forename>Toni</forename>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date> sconosciuta</date>
+	</birth>
+	<death>
+		<date>sconosciuta</date>
+	</death>
+	<note> Citato da Emanuele Artom alla riga 5 di pagina 123  </note>
+</person>
+
+
+
+<!-- Gina -->
+<person xml:id="GI">
+	<persName>
+		<forename>Gina</forename>
+	</persName>
+	<sex>F</sex>
+	<birth>
+		<date> sconosciuta</date>
+	</birth>
+	<death>
+		<date>sconosciuta</date>
+	</death>
+	<note> Citata da Emanuele Artom alla riga 6 di pagina 123 ed alle righe 2 e 3 di pagina 124  </note>
+</person>
+
+
+
+<!-- Luigi -->
+<person xml:id="LU">
+	<persName>
+		<forename>Luigi</forename>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date> sconosciuta</date>
+	</birth>
+	<death>
+		<date>sconosciuta</date>
+	</death>
+	<note> Citato da Emanuele Artom alla riga 6 di pagina 123 ed alle righe 2 e 3 di pagina 124  </note>
+</person>
+
+
+
+<!-- Zama -->
+<person xml:id="ZA">
+	<persName>
+		<forename>Zama</forename>
+	</persName>
+	<sex>M</sex>
+	<birth>
+		<date>Sconosciuta</date>
+	</birth>
+	<death>
+		<date>Sconosciuta</date>
+	</death>
+	<note>Citato da Emanuele Artom alla riga 17 di pagina 123 ed alle righe 7 e 14 di pagina 124</note>
+</person>
+
+
+</listPerson>
+<!--LISTA DEI PAESI-->
+<listPlace>
+<!-- Agliano -->
+<place xml:id="AG">
+	<placeName ref="https://it.wikipedia.org/wiki/Agliano_(Campello_sul_Clitunno)">Agliano</placeName>
+	<country key="IT" type="nation">Italia</country>
+	<desc>Si tratta di un piccolo borgo fortificato dislocato sulla montagna di Campello. È una delle varie frazioni sparse che costituiscono il comune di Campello. </desc>
+</place>
+
+<!-- Agliasco -->
+<place xml:id="AL">
+	<placeName ref="https://italia.indettaglio.it/ita/piemonte/cuneo_paesana_agliasco.html">Agliasco</placeName>
+	<country key="IT" type="nation">Italia</country>
+	<desc>Agliasco fa parte del comune di Paesana, in provincia di Cuneo, nella regione Piemonte.</desc>
+</place>
+
+<!-- Paesana -->
+<place xml:id="PA">
+	<placeName ref="https://it.wikipedia.org/wiki/Paesana">Paesana</placeName>
+	<country key="IT" type="nation">Italia</country>
+	<desc>Paesana è un comune italiano della provincia di Cuneo in Piemonte.</desc>
+</place>
+</listPlace>
+
+
+
+
+<!-- LISTA ORGANIZZAZIONI -->
+<listOrg>
+<!-- CDEC -->
+<org xml:id="CDEC" role="history insitute">
+	<orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
+	<desc>
+								Il CDEC è una fondazione impegnata in attività di ricerca sia di carattere storico che sociologico.
+								Gli ambiti di maggiore impegno sono la storia della Shoah, la storia e la cultura degli ebrei in età contemporanea.
+	</desc>
+	<country key="IT" type="nation">Italia</country>
+</org>
+</listOrg>
+
+</div>
+</back>
+</text>
+
+
+
+
+</TEI>
+
+
+
+
+            
+
+            
